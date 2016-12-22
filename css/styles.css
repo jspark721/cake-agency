@@ -63,6 +63,8 @@ a.button:hover {
     float: left;
     margin: 0;
     font-family: Montserrat, sans-serif; }
+    #banner #logo img {
+      width: 20px; }
   #banner nav {
     float: right;
     padding-top: .3em; }
