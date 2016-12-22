@@ -4,7 +4,7 @@
         
         <!-- stylesheets -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
-        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="scss/styles.css">
         
         <!-- google fonts -->
         <link href="https://fonts.googleapis.com/css?family=Lobster|Playfair+Display|Raleway" rel="stylesheet">
@@ -21,7 +21,7 @@
                         <a href="#">Portfolio</a> 
                         <a href="#">Services</a>
                         <a href="#">Team</a>
-                        <a href="#">Contact</a>
+                        <a href="#" class="button button_secondary button_small">Get in touch</a>
                     </nav>
                 </header>
                 
@@ -34,6 +34,51 @@
                     </div>
                 
                 </div>
+            </div>
+        </section>
+        
+        <section id="services" class="cf">
+            <div class="wrapper">
+                <div class="service">
+                    <h3>Branding</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <a href="#" class="button button_highlight button_small">Learn More</a>
+                </div>
+                <div class="service middle">
+                    <h3>UI/UX Design</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <a href="#" class="button button_highlight button_small">Learn More</a>
+                </div>
+                <div class="service">
+                    <h3>Development</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <a href="#" class="button button_highlight button_small">Learn More</a>
+                </div>
+            </div>
+        </section>
+        
+        <section id="portfolio">
+            <div class="wrapper">
+                <h2 class="title">Our Work</h2>
+                <img src="images/logos.png" alt="Past client" class="logos">
+                
+                <ul id="slider_buttons">
+                    <a href="#">
+                        <li></li>
+                    </a>
+                    <a href="#">
+                        <li class="current"></li>
+                    </a>
+                    <a href="#">
+                        <li></li>
+                    </a>
+                </ul>
+                
+                <ul id="slider">
+                    <li><img src="images/past_work_netflix.jpg" alt="Netflix"></li>
+                    <li><img src="images/past_work_amazon.jpg" alt="Amazon"></li>
+                    <li><img src="images/past_work_wordpress.jpg" alt="Wordpress"></li>
+                </ul>
             </div>
         </section>
     
